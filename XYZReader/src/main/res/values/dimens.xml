@@ -11,7 +11,9 @@
     <dimen name="action_up_button_width">56dp</dimen>
     <dimen name="toolbar_height">112dp</dimen>
     <dimen name="toolbar_elevation">4dp</dimen>
-    <dimen name="list_padding">8dp</dimen>
     <dimen name="detail_card_elevation">2dp</dimen>
+    <dimen name="padding_default">8dp</dimen>
+    <dimen name="padding_half">4dp</dimen>
+    <dimen name="margin_default">8dp</dimen>
 
 </resources>

@@ -2,7 +2,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
+    android:layout_margin="@dimen/margin_default"
     android:clickable="true"
     android:focusable="true"
     android:foreground="?selectableItemBackground">
@@ -15,11 +15,10 @@
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:background="@color/photo_placeholder"
-            android:layout_marginTop="8dp"
-            android:scaleType="fitXY"
+            android:scaleType="centerCrop"
             android:layout_gravity="center_horizontal"/>
 
         <TextView
@@ -27,10 +26,10 @@
             style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:paddingBottom="4dp"
+            android:paddingTop="@dimen/padding_default"
+            android:paddingLeft="@dimen/padding_default"
+            android:paddingRight="@dimen/padding_default"
+            android:paddingBottom="@dimen/padding_half"
             android:ellipsize="end"
             android:maxLines="4"
             android:gravity="center"/>
@@ -40,10 +39,10 @@
             style="@style/TextAppearance.AppCompat.Body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:paddingBottom="16dp"
-            android:textColor="#6000"
+            android:paddingLeft="@dimen/padding_default"
+            android:paddingRight="@dimen/padding_default"
+            android:paddingBottom="@dimen/padding_default"
+            android:textColor="@color/article_subtitle_text_color"
             android:maxLines="2"
             android:ellipsize="end"
             android:gravity="center"/>

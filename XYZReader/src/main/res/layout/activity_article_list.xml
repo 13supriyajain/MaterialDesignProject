@@ -7,7 +7,7 @@
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_height"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@color/theme_primary"
         android:elevation="@dimen/toolbar_elevation"
         android:fitsSystemWindows="true"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
-            app:contentScrim="@android:color/holo_blue_dark"
+            app:contentScrim="@color/theme_primary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <android.support.v7.widget.Toolbar
@@ -52,9 +52,9 @@
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:paddingLeft="@dimen/list_side_margin"
-            android:paddingTop="@dimen/list_padding"
+            android:paddingTop="@dimen/padding_default"
             android:paddingRight="@dimen/list_side_margin"
-            android:paddingBottom="@dimen/list_padding"
+            android:paddingBottom="@dimen/padding_default"
             android:scrollbarStyle="outsideOverlay" />
     </android.support.v4.widget.SwipeRefreshLayout>
 
